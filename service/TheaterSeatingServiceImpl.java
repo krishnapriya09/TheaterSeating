@@ -182,7 +182,6 @@ public class TheaterSeatingServiceImpl implements TheaterSeatingService  {
      * 
      */
    
-    
     public void processTicketRequests(TheaterLayout layout, List<TheaterRequest> requests) {
   
         for(int i=0 ; i<requests.size() ; i++){
